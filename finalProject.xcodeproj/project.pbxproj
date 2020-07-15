@@ -14,6 +14,12 @@
 		E862305824BCE07E00F49206 /* finalProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E862305624BCE07E00F49206 /* finalProject.xcdatamodeld */; };
 		E862305A24BCE08300F49206 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E862305924BCE08300F49206 /* Assets.xcassets */; };
 		E862305D24BCE08300F49206 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E862305B24BCE08300F49206 /* LaunchScreen.storyboard */; };
+		E862306524BE314600F49206 /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E862306424BE314600F49206 /* secondViewController.swift */; };
+		E862306924BE34DE00F49206 /* sadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E862306824BE34DE00F49206 /* sadViewController.swift */; };
+		E862306B24BE35B400F49206 /* calmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E862306A24BE35B400F49206 /* calmViewController.swift */; };
+		E862306D24BE361C00F49206 /* hypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E862306C24BE361C00F49206 /* hypeViewController.swift */; };
+		E862306F24BE368500F49206 /* romanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E862306E24BE368500F49206 /* romanceViewController.swift */; };
+		E8E7855124BF720F00A11BFA /* happyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E7855024BF720F00A11BFA /* happyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,12 @@
 		E862305924BCE08300F49206 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E862305C24BCE08300F49206 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E862305E24BCE08300F49206 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E862306424BE314600F49206 /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
+		E862306824BE34DE00F49206 /* sadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sadViewController.swift; sourceTree = "<group>"; };
+		E862306A24BE35B400F49206 /* calmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calmViewController.swift; sourceTree = "<group>"; };
+		E862306C24BE361C00F49206 /* hypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hypeViewController.swift; sourceTree = "<group>"; };
+		E862306E24BE368500F49206 /* romanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = romanceViewController.swift; sourceTree = "<group>"; };
+		E8E7855024BF720F00A11BFA /* happyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = happyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +78,12 @@
 				E862305B24BCE08300F49206 /* LaunchScreen.storyboard */,
 				E862305E24BCE08300F49206 /* Info.plist */,
 				E862305624BCE07E00F49206 /* finalProject.xcdatamodeld */,
+				E862306424BE314600F49206 /* secondViewController.swift */,
+				E862306E24BE368500F49206 /* romanceViewController.swift */,
+				E8E7855024BF720F00A11BFA /* happyViewController.swift */,
+				E862306C24BE361C00F49206 /* hypeViewController.swift */,
+				E862306A24BE35B400F49206 /* calmViewController.swift */,
+				E862306824BE34DE00F49206 /* sadViewController.swift */,
 			);
 			path = finalProject;
 			sourceTree = "<group>";
@@ -142,9 +160,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				E862305224BCE07E00F49206 /* ViewController.swift in Sources */,
+				E862306924BE34DE00F49206 /* sadViewController.swift in Sources */,
+				E862306D24BE361C00F49206 /* hypeViewController.swift in Sources */,
 				E862304E24BCE07E00F49206 /* AppDelegate.swift in Sources */,
 				E862305824BCE07E00F49206 /* finalProject.xcdatamodeld in Sources */,
+				E862306524BE314600F49206 /* secondViewController.swift in Sources */,
 				E862305024BCE07E00F49206 /* SceneDelegate.swift in Sources */,
+				E8E7855124BF720F00A11BFA /* happyViewController.swift in Sources */,
+				E862306F24BE368500F49206 /* romanceViewController.swift in Sources */,
+				E862306B24BE35B400F49206 /* calmViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
